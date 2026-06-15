@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Copse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Copse, serif;
+    color: #2b2d42;         
+    background-color: #faf0ca; 
+}
+
+h1, sub {
+    font-family: "Ephesis", cursive;
+}
+
+h1 {
+    font-size: 7.5vh;
+    line-height: 8vh;
+    color: #e63946;        
+    margin-bottom: 3vh;
+}
+
+sub {
+    font-size: 2vh;
+    color: #8d99ae;
+    display: block;
+    margin-top: 3vh;
+}
+
+p {
+    font-size: 1.9vh;
+    line-height: 3vh;
+    margin-bottom: 2vh;      
+}
+
+nav {
+    position: fixed;
+    top: 5vh;
+    left: 2vw; 
+    background-color: #ffffff; 
+    width: 11vw;
+    text-align: center;
+    z-index: 100;
+    border-radius: 12px;
+    border: 1px solid #edf2f7;
+}
+
+nav > p {
+    padding: 14px 5px;
+    font-size: 1.7vh;
+}
+
+nav > p:first-of-type {
+    cursor: pointer;
+    font-size: 2.2vh;
+    color: #1d3557;
+}
+
+nav > p:not(:first-of-type) {
+    display: none; 
+}
+
+nav > p:hover {
+    background-color: #f1faee;
+}
+
+nav > p > a, nav > p > a:visited {
+    color: #1d3557;
+    text-decoration: none;
+}
+
+
+article > section:first-of-type {
+    position: fixed;
+    top: 18vh;        
+    left: 16vw;       
+    width: 36vw;      
+    padding-right: 2vw;
+}
+
+
+article > section:last-of-type {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 58vw; 
+    padding-top: 18vh;
+    padding-bottom: 10vh;
+}
+
+
+article > section:last-of-type > div {
+    width: 28vw;         
+    padding: 25px;      
+    border-radius: 12px;
+    margin-bottom: 5vh;  
+}
+
+
+article > section:last-of-type > div:first-of-type {
+    background-color: #ffcad4; 
+}
+
+
+article > section:last-of-type > div:last-of-type {
+    background-color: #d8e2dc; 
+}
+
+
+article > section:last-of-type > div > p:first-child {
+    font-weight: bold;   
+    font-size: 1.8vh;
+    margin-bottom: 1.5vh;
+}
+
+article > section:last-of-type > div:first-of-type > p:first-child {
+    color: #c92a2a;
+}
+
+article > section:last-of-type > div:last-of-type > p:first-child {
+    color: #2b8a3e; 
+}
+
+article > section:last-of-type > div > p:last-child {
+    font-style: italic;  
+    color: #2b2d42;     
+    margin-bottom: 0;    
+}
